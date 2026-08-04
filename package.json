@@ -1,0 +1,17 @@
+{
+  "name": "semental-rules-bot-premium",
+  "version": "3.0.0",
+  "description": "Premium bilingual Discord rules panel with private ephemeral responses.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.4.7"
+  }
+}
