@@ -10,75 +10,83 @@
   "panel": {
     "title": "OFFICIAL LEAGUE RULES",
     "englishDescription": "Official Semental rules.",
-    "spanishDescription": "Reglas oficiales de Semental."
+    "spanishDescription": "Reglas oficiales de Semental.",
+    "privateNoticeSpanish": "Selecciona tu idioma para ver las reglas oficiales de forma privada."
   },
   "englishRules": [
     {
       "title": "START & GRACE PERIOD",
-      "text": "• 1st 2nd 3rd match **10-minute grace period**.\n• If a team has **not sent a single message by :10**, the opponent may call a **Forfeit (FF)**."
+      "text": "• Each match has a **5-minute grace period**.\n• If a team has **not sent a single message by :06**, the opponent may call a **Forfeit (FF)**.\n• If the match has **not started by :10**, teams must play a **1-Half Match only**.\n• All pre-match **FF wins = 2–0**.\n• If a team forfeits during a match, the current score stands and **+2 goals** are added to the non-forfeiting team’s score."
     },
     {
       "title": "LEAGUE FORMAT",
-      "text": "• Every fixture consists of **1 match only** (no home-and-away legs).\n• 🟢 **Win:** 3 Points\n• 🟡 **Draw:** 1 Point\n• 🔴 **Loss:** 0 Points\n• League standings will determine the final table and any playoff qualification."
+      "text": "• Each matchday consists of **2 League Matches**.\n• **Match 1:** 10:30 PM EST\n• **Match 2:** 11:00 PM EST\n• Each fixture is **1 match only**.\n• No home-and-away legs during the League Stage.\n\n**POINT SYSTEM**\n• 🏆 Win — **3 Points**\n• 🤝 Draw — **1 Point**\n• ❌ Loss — **0 Points**\n• League standings determine the final table and playoff qualification."
     },
     {
       "title": "HOSTING RULES",
-      "text": "• The **home team** (team listed on the left) must send the match invite.\n• The home team must host the match from **North America (NA)**.\n• **All players** on the home team’s squad must be located within **North America**.\n• Teams with **any player located outside North America are not eligible to host**.\n• If the home team is unable to host, an **admin must be contacted before the match begins**."
+      "text": "• The **Home Team** (team listed on the left) sends the match invite.\n• The Home Team must host from **North America (NA)**.\n• **All players** on the hosting team’s squad must be located in North America.\n• If any player is located outside North America, that team **cannot host**.\n• If the Home Team cannot host, an **Admin must be contacted before kickoff**."
     },
     {
       "title": "BACKOUT RULES",
-      "text": "• Each team is allowed **1 backout per match**.\n• Teams may back out **before the 10th in-game minute**.\n• If a goal is scored while a team is actively backing out, **the goal will not count**.\n• Any additional backout after a team’s first backout has been used may result in a **Forfeit (FF)**.\n• **Proof is required** for all disputed backouts."
+      "text": "• Each team receives **1 Backout per match**.\n• A Backout must happen **before the 10th in-game minute**.\n• If a goal is scored while a team is actively backing out, **the goal does not count**.\n• A second Backout by the same team may result in a **Forfeit (FF)**.\n• **Proof is required** for all disputed Backouts."
     },
     {
       "title": "GAMEPLAY RULES",
-      "text": "• A maximum of **1 defending player** may stand on the goal line during **corners and free kicks**.\n• **No goalkeeper interference** is allowed.\n• Violations may result in a **goal being awarded** to the opposing team unless admins rule otherwise.\n• Repeated violations may result in a **Forfeit (FF)**.\n• Teams must have **at least 6 players** on the field.\n• If a team has **fewer than 6 players**, any is **REQUIRED**.\n• **No time wasting** is allowed.\n\n**Red Card Rule**\n• **Red cards do not carry over** to the next match."
+      "text": "• Maximum of **1 defending player on the goal line** during corners and free kicks.\n• **Goalkeeper interference is prohibited.**\n• Violations may result in a goal being awarded to the opposing team.\n• Repeated violations may result in a **Forfeit (FF)**.\n• Teams must have a minimum of **6 players** on the field.\n• Playing with fewer than 6 players may result in an **FF** if called by the opponent.\n• If both teams agree to play and finish the match, **the final result stands**.\n• **No time wasting.**\n\n**RED CARD RULE**\n• Red cards **DO NOT carry over** to the next match."
     },
     {
       "title": "SUBSTITUTION RULE",
-      "text": "• ❌ **No substitutions are allowed.**\n• Substitutions are **not permitted at any point during the match**.\n• Any substitution will result in an **automatic Forfeit (FF)**."
+      "text": "• ❌ **NO SUBSTITUTIONS ALLOWED**\n• Substitutions are prohibited at any point during the match.\n• Any substitution will result in an **Automatic Forfeit (FF)**."
     },
     {
       "title": "LEAGUE MATCH RULES",
-      "text": "• Each fixture consists of **1 match only**.\n• If a match ends in a **draw**, the result stands.\n• **No Extra Time or Penalty Shootouts** will be played.\n• Teams must submit the **final score** in the proper results channel after full time.\n\n**League Points**\n• 🟢 **Win:** 3 Points\n• 🟡 **Draw:** 1 Point\n• 🔴 **Loss:** 0 Points"
+      "text": "• Every League fixture consists of **1 match**.\n• If the match ends in a draw, **the draw stands**.\n• ❌ No Extra Time.\n• ❌ No Penalty Shootouts.\n• Final scores must be submitted in the proper results channel after Full Time.\n\n**LEAGUE POINTS**\n• 🏆 Win — **3 Points**\n• 🤝 Draw — **1 Point**\n• ❌ Loss — **0 Points**"
     },
     {
       "title": "KNOCKOUT MATCH RULES",
-      "text": "• If a match ends in a **draw**, must play extra Time or Penalty Shootouts."
+      "text": "• Knockout matches are **WIN OR GO HOME**.\n• Each Knockout fixture consists of **1 match**.\n• A winner must be determined.\n• If tied after regulation, **Extra Time MUST be played**.\n• If still tied after Extra Time, a **Penalty Shootout MUST be played**.\n• ❌ **NO DRAWS IN KNOCKOUTS**.\n• The winner advances and the losing team is eliminated."
+    },
+    {
+      "title": "SEMIFINALS — TWO LEGS",
+      "text": "• The **Semifinals are played over 2 Legs**.\n• Each team plays one match as home and one as away.\n\n**FIRST LEG**\n• Full match is played.\n• If the match ends in a draw, **the draw stands**.\n• ❌ No Extra Time.\n• ❌ No Penalty Shootout.\n\n**SECOND LEG**\n• Full match is played.\n• Scores from **Leg 1 + Leg 2** are combined.\n• The team with the highest **Aggregate Score** advances to the Final.\n• If aggregate is tied after Leg 2, **Extra Time MUST be played**.\n• If aggregate remains tied, a **Penalty Shootout MUST be played**.\n• 🚫 **NO Away Goals Rule** — every goal has the same value.\n• All standard UFL rules remain in effect for both legs."
     }
   ],
   "spanishRules": [
-  {
-    "title": "INICIO Y PERÍODO DE GRACIA",
-    "text": "• El 1.º, 2.º y 3.º partido tienen un **período de gracia de 10 minutos**.\n• Si un equipo **no ha enviado ni un solo mensaje antes del minuto :10**, el equipo rival podrá solicitar un **Forfeit (WO)**."
-  },
-  {
-    "title": "FORMATO DE LIGA",
-    "text": "• Cada enfrentamiento consiste en **1 solo partido** (sin ida y vuelta).\n• 🟢 **Victoria:** 3 puntos\n• 🟡 **Empate:** 1 punto\n• 🔴 **Derrota:** 0 puntos\n• La tabla de posiciones determinará la clasificación final y cualquier pase a los playoffs."
-  },
-  {
-    "title": "REGLAS DE HOST",
-    "text": "• El **equipo local** (el equipo que aparece a la izquierda) debe enviar la invitación al partido.\n• El equipo local debe hacer de **host desde Norteamérica (NA)**.\n• **Todos los jugadores** del equipo local deben estar ubicados en **Norteamérica**.\n• Los equipos que tengan **cualquier jugador ubicado fuera de Norteamérica no podrán ser host**.\n• Si el equipo local no puede ser host, deberá **contactar a un administrador antes de que comience el partido**."
-  },
-  {
-    "title": "REGLAS DE BACKOUT",
-    "text": "• Cada equipo tiene permitido **1 backout por partido**.\n• Los equipos pueden hacer backout **antes del minuto 10 del juego**.\n• Si se anota un gol mientras un equipo está realizando un backout, **el gol no contará**.\n• Cualquier backout adicional después de haber utilizado el primero puede resultar en un **Forfeit (WO)**.\n• **Se requiere evidencia** para cualquier disputa relacionada con un backout."
-  },
-  {
-    "title": "REGLAS DE JUGABILIDAD",
-    "text": "• Se permite un máximo de **1 jugador defensor** sobre la línea de gol durante **tiros de esquina y tiros libres**.\n• **No se permite interferir con el portero**.\n• Las infracciones pueden resultar en que se **otorgue un gol al equipo rival**, a menos que los administradores decidan lo contrario.\n• Las infracciones repetidas pueden resultar en un **Forfeit (WO)**.\n• Los equipos deben tener **al menos 6 jugadores** en el campo.\n• Si un equipo tiene **menos de 6 jugadores**, será **OBLIGATORIO** aplicar un **Forfeit (WO)**.\n• **No se permite perder tiempo deliberadamente**.\n\n**Regla de Tarjeta Roja**\n• **Las tarjetas rojas no se trasladan al siguiente partido**."
-  },
-  {
-    "title": "REGLA DE SUSTITUCIONES",
-    "text": "• ❌ **No se permiten sustituciones.**\n• Las sustituciones **no están permitidas en ningún momento del partido**.\n• Cualquier sustitución resultará en un **Forfeit (WO) automático**."
-  },
-  {
-    "title": "REGLAS DE PARTIDOS DE LIGA",
-    "text": "• Cada enfrentamiento consiste en **1 solo partido**.\n• Si un partido termina en **empate**, el resultado se mantiene.\n• **No se jugará tiempo extra ni tanda de penales**.\n• Los equipos deben enviar el **marcador final** en el canal correspondiente de resultados al finalizar el partido.\n\n**Puntos de Liga**\n• 🟢 **Victoria:** 3 puntos\n• 🟡 **Empate:** 1 punto\n• 🔴 **Derrota:** 0 puntos"
-  },
-  {
-    "title": "REGLAS DE PARTIDOS ELIMINATORIOS",
-    "text": "• Si un partido termina en **empate**, se deberá jugar **tiempo extra o una tanda de penales** para definir al ganador."
-  }
-]
-
+    {
+      "title": "INICIO Y PERÍODO DE GRACIA",
+      "text": "• El 1.º, 2.º y 3.º partido tienen un **período de gracia de 10 minutos**.\n• Si un equipo **no ha enviado ni un solo mensaje antes del minuto :10**, el equipo rival podrá solicitar un **Forfeit (WO)**."
+    },
+    {
+      "title": "FORMATO DE LIGA",
+      "text": "• Cada enfrentamiento consiste en **1 solo partido** (sin ida y vuelta).\n• 🟢 **Victoria:** 3 puntos\n• 🟡 **Empate:** 1 punto\n• 🔴 **Derrota:** 0 puntos\n• La tabla de posiciones determinará la clasificación final y cualquier pase a los playoffs."
+    },
+    {
+      "title": "REGLAS DE HOST",
+      "text": "• El **equipo local** (el equipo que aparece a la izquierda) debe enviar la invitación al partido.\n• El equipo local debe hacer de **host desde Norteamérica (NA)**.\n• **Todos los jugadores** del equipo local deben estar ubicados en **Norteamérica**.\n• Los equipos que tengan **cualquier jugador ubicado fuera de Norteamérica no podrán ser host**.\n• Si el equipo local no puede ser host, deberá **contactar a un administrador antes de que comience el partido**."
+    },
+    {
+      "title": "REGLAS DE BACKOUT",
+      "text": "• Cada equipo tiene permitido **1 backout por partido**.\n• Los equipos pueden hacer backout **antes del minuto 10 del juego**.\n• Si se anota un gol mientras un equipo está realizando un backout, **el gol no contará**.\n• Cualquier backout adicional después de haber utilizado el primero puede resultar en un **Forfeit (WO)**.\n• **Se requiere evidencia** para cualquier disputa relacionada con un backout."
+    },
+    {
+      "title": "REGLAS DE JUGABILIDAD",
+      "text": "• Se permite un máximo de **1 jugador defensor** sobre la línea de gol durante **tiros de esquina y tiros libres**.\n• **No se permite interferir con el portero**.\n• Las infracciones pueden resultar en que se **otorgue un gol al equipo rival**, a menos que los administradores decidan lo contrario.\n• Las infracciones repetidas pueden resultar en un **Forfeit (WO)**.\n• Los equipos deben tener **al menos 6 jugadores** en el campo.\n• Si un equipo tiene **menos de 6 jugadores**, será **OBLIGATORIO** aplicar un **Forfeit (WO)**.\n• **No se permite perder tiempo deliberadamente**.\n\n**Regla de Tarjeta Roja**\n• **Las tarjetas rojas no se trasladan al siguiente partido**."
+    },
+    {
+      "title": "REGLA DE SUSTITUCIONES",
+      "text": "• ❌ **No se permiten sustituciones.**\n• Las sustituciones **no están permitidas en ningún momento del partido**.\n• Cualquier sustitución resultará en un **Forfeit (WO) automático**."
+    },
+    {
+      "title": "REGLAS DE PARTIDOS DE LIGA",
+      "text": "• Cada enfrentamiento consiste en **1 solo partido**.\n• Si un partido termina en **empate**, el resultado se mantiene.\n• **No se jugará tiempo extra ni tanda de penales**.\n• Los equipos deben enviar el **marcador final** en el canal correspondiente de resultados al finalizar el partido.\n\n**Puntos de Liga**\n• 🟢 **Victoria:** 3 puntos\n• 🟡 **Empate:** 1 punto\n• 🔴 **Derrota:** 0 puntos"
+    },
+    {
+      "title": "REGLAS DE PARTIDOS ELIMINATORIOS",
+      "text": "• Si un partido termina en **empate**, se deberá jugar **tiempo extra o una tanda de penales** para definir al ganador."
+    },
+    {
+      "title": "SEMIFINALES — IDA Y VUELTA",
+      "text": "• Las **Semifinales se juegan a 2 partidos (ida y vuelta)**.\n• Cada equipo juega un partido como local y otro como visitante.\n\n**PARTIDO DE IDA**\n• Se juega el partido completo.\n• Si termina empatado, **el empate se mantiene**.\n• ❌ No hay Tiempo Extra.\n• ❌ No hay Penales.\n\n**PARTIDO DE VUELTA**\n• Se juega el partido completo.\n• Se suman los marcadores de **Ida + Vuelta**.\n• El equipo con mejor **Marcador Global** avanza a la Final.\n• Si el global queda empatado después de la vuelta, se juega **Tiempo Extra**.\n• Si continúa empatado, se juega una **Tanda de Penales**.\n• 🚫 **No existe la regla de gol de visitante**.\n• Todas las demás reglas UFL siguen vigentes en ambos partidos."
+    }
+  ]
 }
