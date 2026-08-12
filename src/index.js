@@ -157,6 +157,10 @@ function buildButtons() {
 
 const commands = [
   new SlashCommandBuilder()
+    .setName("rules")
+    .setDescription("Post the official bilingual Semental rules panel."),
+
+  new SlashCommandBuilder()
     .setName("rules-panel")
     .setDescription("Post the premium bilingual Semental rules panel.")
     .setDefaultMemberPermissions(PermissionFlagsBits.ManageGuild),
@@ -182,7 +186,7 @@ async function registerCommands() {
     { body: commands }
   );
 
-  console.log("Registered /rules-panel and /rules-preview.");
+  console.log("Registered /rules, /rules-panel and /rules-preview.");
 }
 
 client.once(Events.ClientReady, (readyClient) => {
@@ -195,7 +199,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
     const config = loadConfig();
 
     if (interaction.isChatInputCommand()) {
-      if (interaction.commandName === "rules-panel") {
+      if (interaction.commandName === "rules" || interaction.commandName === "rules-panel") {
         await interaction.reply({
           embeds: [buildPanel(config)],
           components: [buildButtons()],
