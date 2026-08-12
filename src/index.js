@@ -69,7 +69,6 @@ function buildPanel(config) {
         config.panel.englishDescription,
         config.panel.spanishDescription,
         "",
-        `🔒 **${config.panel.privateNoticeEnglish}**`,
         config.panel.privateNoticeSpanish,
       ].join("\n")
     )
